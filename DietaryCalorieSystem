@@ -1,0 +1,16 @@
+Dietary Calorie Intake & Nutrition Log System (NutriTrack)
+
+Academic Project - B.Tech CSE (IoT) 3rd Semester
+Author: Purushottam
+
+Build & Run Instructions:
+- Double-click `run.bat` to launch the application.
+- Double-click `build.bat` to recompile source files.
+- Double-click `test.bat` to run the 39 automated unit tests.
+- Alternatively, use Maven: `mvn clean compile exec:java`.
+
+Architecture:
+- Core Java 17+ (Java Swing Desktop GUI)
+- Layered Model-View-Service Pattern
+- Local Persistent Storage: data/ (Serialization)
+- Zero external jar dependencies required.
